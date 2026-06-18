@@ -26,7 +26,15 @@ const tajawal = Tajawal({
   weight: ["400", "500", "700"],
 });
 
-const siteUrl = "https://massaha.arch";
+// Resolve the canonical site URL so OG/Twitter image links are absolute and reachable.
+// Priority: explicit env → Vercel production domain → local Vercel deploy → sensible default.
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL
+  : process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "https://massaha-website.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
