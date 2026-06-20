@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LogoMark } from "@/components/LogoMark";
+import { HeroBlueprint } from "@/components/sections/HeroBlueprint";
 
 const easing = [0.22, 1, 0.36, 1] as const;
 
@@ -29,7 +30,10 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-linen/60 via-linen/40 to-linen" />
       </div>
 
-      <div className="container-px flex flex-col items-center text-center">
+      {/* Self-drawing architectural blueprint behind the headline */}
+      <HeroBlueprint />
+
+      <div className="relative z-10 container-px flex flex-col items-center text-center">
         {/* Animated logo mark */}
         <motion.div
           initial={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.85 }}
