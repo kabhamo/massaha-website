@@ -26,13 +26,13 @@ export function ContactInfo({ withWhatsAppButton = true }: { withWhatsAppButton?
           <dt className="eyebrow">{info.instagramLabel}</dt>
           <dd className="mt-1">
             <a
-              href="https://instagram.com/massaha.studio"
+              href="https://www.instagram.com/massaha.arch/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-lg text-ink hover:text-earth"
             >
               <InstagramIcon className="h-5 w-5" />
-              @massaha.studio
+              @massaha.arch
             </a>
           </dd>
         </div>

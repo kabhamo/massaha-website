@@ -62,13 +62,13 @@ export function Footer() {
             </li>
             <li>
               <a
-                href="https://instagram.com/massaha.studio"
+                href="https://www.instagram.com/massaha.arch/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 hover:text-ink"
               >
                 <InstagramIcon className="h-4 w-4" />
-                @massaha.studio
+                @massaha.arch
               </a>
             </li>
           </ul>
