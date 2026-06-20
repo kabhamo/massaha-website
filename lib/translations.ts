@@ -33,7 +33,7 @@ const dictionaries = {
       eyebrow: "Who We Are",
       title: "Three architects, one vision.",
       lead: "To make thoughtful design accessible.",
-      body: "Massaha is an architectural consulting, planning and guidance studio founded by three young architects who graduated with a B.Arch from Tel Aviv University. We believe great architecture is not a luxury — it is a way of living, and a service everyone deserves.",
+      body: "Massaha is an architectural consulting, planning and guidance studio founded by three young women architects who graduated with a B.Arch from Tel Aviv University. We believe great architecture is not a luxury — it is a way of living, and a service everyone deserves.",
       credential: "B.Arch — Tel Aviv University",
       valuesTitle: "Our Values",
       values: ["Precision", "Warmth", "Purpose"],
@@ -188,9 +188,9 @@ const dictionaries = {
 
     about: {
       eyebrow: "من نحن",
-      title: "ثلاثة معماريين، رؤية واحدة.",
+      title: "ثلاث معماريات، رؤية واحدة.",
       lead: "لنجعل التصميم المدروس في متناول الجميع.",
-      body: "مساحة هو ستوديو للاستشارات والتخطيط والتوجيه المعماري، أسّسه ثلاثة معماريين شباب حاصلين على بكالوريوس العمارة من جامعة تل أبيب. نؤمن بأن العمارة الجيدة ليست رفاهية، بل أسلوب حياة وخدمة يستحقها الجميع.",
+      body: "مساحة هو ستوديو للاستشارات والتخطيط والتوجيه المعماري، أسّسته ثلاث معماريات شابات حاصلات على بكالوريوس العمارة من جامعة تل أبيب. نؤمن بأن العمارة الجيدة ليست رفاهية، بل أسلوب حياة وخدمة يستحقها الجميع.",
       credential: "بكالوريوس العمارة — جامعة تل أبيب",
       valuesTitle: "قيمنا",
       values: ["الدقة", "الدفء", "الهدف"],
